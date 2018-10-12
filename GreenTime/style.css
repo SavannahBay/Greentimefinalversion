@@ -1,0 +1,83 @@
+/* style.css */
+
+head{
+  background-size: contain;
+  font-family: Century Gothic;
+  text-align: center;
+}
+
+
+body{
+  background-color: #F6EFEF;
+  background-size: contain;
+  font-family: Century Gothic;
+  text-align: center;
+}
+
+
+
+#navbarSupportedContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B7F52;
+    text-align: center;
+}
+
+#navbarSupportedContent li {
+    float: left;
+}
+
+#navbarSupportedContent li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbarSupportedContent li a:hover, .dropdow-item:hover {
+    background-color: lightgrey;
+}
+
+#navbarSupportedContent li .dropdown-item {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #4B7F52;
+    text-align: center;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#footer{
+	background-color: #4B7F52;
+  text-align: center;
+}
+
+#footer a{
+	color: white;
+  text-align: center;
+}
+
+#footer i{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    text-align: center;
+}
+
